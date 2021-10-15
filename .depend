@@ -1,0 +1,4 @@
+Image.o: Image.cpp Image.h Point.h
+Point.o: Point.cpp Point.h
+Texture.o: Texture.cpp Texture.h Image.h Point.h
+main.o: main.cpp Texture.h Image.h Point.h Rect.h
